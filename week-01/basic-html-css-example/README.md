@@ -1,3 +1,3 @@
 # Basic HTML & CSS example
 
-[Open in Codesandbox](https://codesandbox.io/embed/pui-ssui-week-01-basic-html-css-example-dpd3u?fontsize=14)
+[![Edit pui-ssui-week-01-basic-html-css-example](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/lxieyang/pui-ssui-lab-materials-fall-2019/tree/master/week-01/basic-html-css-example?fontsize=14)
