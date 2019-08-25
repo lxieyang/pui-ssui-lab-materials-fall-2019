@@ -3,3 +3,7 @@
 ## Lab Slides
 
 [Week 1 - Welcome & Introductions to HTML & CSS](https://drive.google.com/open?id=11En1wkEdArdC60Y0irxq2BKiXfSsFWxT0GlxAJO9vOU)
+
+## Basic HTML & CSS Example
+
+[basic-html-css-example](./basic-html-css-example/)
