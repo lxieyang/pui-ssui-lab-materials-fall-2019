@@ -3,5 +3,12 @@
   "version": "1.0.0",
   "description": "PUI/SSUI Fall 2019 Week 1",
   "author": "Michael Xieyang Liu",
-  "main": "index.html"
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3"
+  }
 }
