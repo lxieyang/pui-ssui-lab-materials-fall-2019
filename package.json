@@ -1,0 +1,25 @@
+{
+  "name": "pui-ssui-lab-materials-fall-2019",
+  "version": "1.0.0",
+  "description": "PUI/SSUI Fall 2019 Lab Materials",
+  "scripts": {
+    "prettier": "prettier --write '**/*.{js,jsx,css,html}'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lxieyang/pui-ssui-lab-materials-fall-2019.git"
+  },
+  "author": "Michael Xieyang Liu",
+  "license": "MIT",
+  "homepage": "https://github.com/lxieyang/pui-ssui-lab-materials-fall-2019#readme",
+  "devDependencies": {
+    "husky": "^3.0.4",
+    "prettier": "1.18.2",
+    "pretty-quick": "^1.11.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged --verbose"
+    }
+  }
+}

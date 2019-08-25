@@ -1,1 +1,1 @@
-# pui-ssui-lab-materials-fall-2019
+# PUI/SSUI Fall 2019 - Lab Materials

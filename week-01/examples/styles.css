@@ -1,0 +1,54 @@
+body {
+  font-size: 16px;
+  font-family: Helvetica;
+  background-color: aquamarine;
+}
+
+/* .important {
+  color: red;
+  background-color: yellow;
+} */
+
+.hcii-text {
+  color: #c1000f;
+}
+
+#instructors {
+  background-color: beige;
+  padding: 10px;
+}
+
+.instructor {
+  display: flex;
+  align-items: center;
+
+  padding: 15px;
+  margin-top: 20px;
+  background-color: lightgray;
+  border-radius: 10px;
+}
+
+.info-container {
+  padding-right: 20px;
+}
+
+.info-container h3 {
+  font-size: 1.4rem;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.info-container img {
+  width: 300px;
+  max-height: 300px;
+  object-fit: contain;
+  /* border-radius: 50%; */
+}
+
+.bio-container {
+  font-size: 1.2rem;
+}
+
+/* .bio-container p {
+  color: red;
+} */

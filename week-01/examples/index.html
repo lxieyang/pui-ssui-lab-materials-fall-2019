@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="PUI/SSUI Lab Week 1" />
+    <title>Week 1</title>
+
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="shortcut icon" href="favicon.ico" />
+
+    <link />
+  </head>
+
+  <body>
+    <h1>Week 1 - Introduction to HTML & CSS</h1>
+
+    <!-- 
+    Useful Tags:
+    - <div>...</div>                    ==> block-level container for content
+    - <span>...</span>                  ==> inline container for content
+    - <h1>...</h1>(<h2>...</h2>, etc.)  ==> headings (h1 through h6)
+    - <p>...</p>                        ==> paragraph of text
+    - <img src=”...” />                 ==> image, src specifying path to image
+    - <a href=”...”>Link Text</a>       ==> link, href specifying destination
+  -->
+    <h2>Instructors</h2>
+    <div id="instructors">
+      <div class="instructor">
+        <div class="info-container">
+          <h3>Jason Hong</h3>
+          <img src="https://hcii.cmu.edu/sites/default/files/migrated_files/Jason_Hong1.jpg" alt="Jason Hong" />
+          <a href="http://www.cs.cmu.edu/~jasonh/" target="_blank">
+            http://www.cs.cmu.edu/~jasonh/
+          </a>
+        </div>
+        <div class="bio-container">
+          <p>
+            My research lies at the intersection of human-computer interaction, privacy and security, and systems, focusing primarily on two
+            questions:
+          </p>
+          <ul>
+            <li class="important">How can we use rich sensor data to improve our lives?</li>
+            <li>How can we make privacy and security easier for everyone?</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="instructor">
+        <div class="info-container">
+          <h3>Tianshi Li</h3>
+          <img src="https://tianshili.me/assets/portrait-00fbe04b9bf5b53c8d299560415be930c04e86f256e2e1116dc03ffd4c451b1c.png" alt="Sai" />
+          <a href="https://tianshili.me/" target="_blank">
+            https://tianshili.me/
+          </a>
+        </div>
+        <div class="bio-container">
+          <p>
+            I'm a Ph.D. student at the Human-Computer Interaction Institute at Carnegie Mellon University, advised by Prof. Jason Hong. My
+            main research interest focuses on helping developers make privacy-friendly apps. I am particularly interested in understanding
+            why people create apps that violate privacy and building tools for developers to make protecting user's privacy a simple and
+            straightforward task.
+          </p>
+        </div>
+      </div>
+
+      <div class="instructor">
+        <div class="info-container">
+          <h3>Sai Ganesh Swaminathan</h3>
+          <img src="http://www.saiganesh.net/images/new_profile.jpg" alt="Tianshi" />
+          <a href="http://www.saiganesh.net/" target="_blank">
+            http://www.saiganesh.net/
+          </a>
+        </div>
+        <div class="bio-container">
+          <p>
+            I'm currently a Ph.D. Student at Carnegie Mellon University at the Human-Computer Interaction Insitute, advised by Scott . I am
+            part of the Devlab.
+          </p>
+          <p>I work on enabling advanced manufacturing of large-scale interactive structures.</p>
+        </div>
+      </div>
+
+      <div class="instructor">
+        <div class="info-container">
+          <h3>Michael Xieyang Liu</h3>
+          <img src="https://lxieyang.github.io/static/lxieyang-avatar-b16c48989f8dc8aa8ab33f65c371fa78.jpg" alt="Michael" />
+          <a href="https://lxieyang.github.io/" target="_blank">
+            https://lxieyang.github.io/
+          </a>
+        </div>
+        <div class="bio-container">
+          <p>
+            I am a 3rd year Ph.D. student at <span class="hcii-text">Human-Computer Interaction Institute</span> @ Carnegie Mellon
+            University.
+          </p>
+          <p>
+            My current research interests include human-computer interaction, programming support tools, sensemaking, end-user programming,
+            intelligent user interfaces.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
