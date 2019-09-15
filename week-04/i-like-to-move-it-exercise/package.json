@@ -1,0 +1,14 @@
+{
+  "name": "ssui-week-04-i-like-to-move-it-exercise",
+  "version": "1.0.0",
+  "description": "PUI/SSUI Fall 2019 Week 4",
+  "author": "Michael Xieyang Liu",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3"
+  }
+}
