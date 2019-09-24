@@ -1,5 +1,4 @@
-let recoveredList = localStorage.getItem('list') || [];
-recoveredList = JSON.parse(recoveredList);
+const recoveredList = JSON.parse(localStorage.getItem('list') || '[]');
 
 if (recoveredList.length > 0) {
   const ul = document.getElementById('myUL');
