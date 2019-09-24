@@ -54,7 +54,7 @@ list.addEventListener(
 );
 
 // Create a new list item when clicking on the "Add" button
-const newElement = () => {
+const addNewItem = () => {
   const li = document.createElement('li');
   const inputValue = document.getElementById('myInput').value;
   const t = document.createTextNode(inputValue);
