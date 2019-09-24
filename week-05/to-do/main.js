@@ -83,6 +83,8 @@ const addNewItem = () => {
   saveCurrentList();
 };
 
+window.addNewItem = addNewItem;
+
 const saveCurrentList = () => {
   const myNodelist = document.getElementsByTagName('LI');
   const list = [];
