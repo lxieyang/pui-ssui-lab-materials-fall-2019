@@ -1,0 +1,14 @@
+{
+  "name": "to-do",
+  "version": "1.0.0",
+  "description": "PUI/SSUI Fall 2019 Week 5",
+  "author": "Michael Xieyang Liu",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --global window",
+    "build": "parcel build index.html --global window"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3"
+  }
+}
