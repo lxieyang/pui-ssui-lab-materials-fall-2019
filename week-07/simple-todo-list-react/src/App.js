@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import TodoItem from './components/TodoItem/TodoItem';
 import './App.css';
 
 class App extends Component {
@@ -59,7 +60,7 @@ class App extends Component {
     });
   };
 
-  switchCheckedStatus = idx => {
+  switchItemCheckedStatus = idx => {
     let newTodoList = [...this.state.todoList];
     newTodoList[idx].finished = !newTodoList[idx].finished;
     this.setState({
@@ -86,14 +87,13 @@ class App extends Component {
         <ul>
           {this.state.todoList.map((todoItem, idx) => {
             return (
-              <li key={idx} onClick={() => this.switchCheckedStatus(idx)}>
-                {todoItem.content}
-                {todoItem.finished ? <div className="DoneIcon">Done!</div> : null}
-                <div className="Filler"></div>
-                <div className="DeleteIcon" onClick={e => this.removeItemFromList(e, idx)}>
-                  x
-                </div>
-              </li>
+              <TodoItem
+                key={idx}
+                idx={idx}
+                todoItem={todoItem}
+                remove={this.removeItemFromList}
+                switchCheckedStatus={this.switchItemCheckedStatus}
+              />
             );
           })}
         </ul>
