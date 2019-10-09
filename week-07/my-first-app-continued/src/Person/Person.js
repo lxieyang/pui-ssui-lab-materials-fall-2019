@@ -1,29 +1,19 @@
-import React, { Component } from 'react';
+import React from 'react';
+import './Person.css';
 
-class Person extends Component {
-  render() {
-    const { name, location, children } = this.props;
+const person = props => {
+  const { name, location, i } = props;
 
-    return (
-      <div>
-        <h1>Name: {name}</h1>
-        <h3>Location: {location}</h3>
-        <p>{children}</p>
-      </div>
-    );
-  }
-}
+  return (
+    <div className="Person">
+      <h3>{i}</h3>
+      <h1 className="HeaderName" onClick={() => props.deleteMe(i)}>
+        Name: {name}
+      </h1>
+      <h3 onClick={() => props.switchNameToMichelle()}>Location: {location}</h3>
+      <input type="text" value={name} onChange={e => props.handleNameChange(e)} />
+    </div>
+  );
+};
 
-// const person = ({ name, location, children }) => {
-//   // const { name, location, children } = props;
-
-//   return (
-//     <div>
-//       <h1>Name: {name}</h1>
-//       <h3>Location: {location}</h3>
-//       <p>{children}</p>
-//     </div>
-//   );
-// };
-
-export default Person;
+export default person;
