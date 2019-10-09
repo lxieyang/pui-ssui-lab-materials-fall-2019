@@ -37,13 +37,13 @@ class App extends Component {
     // Todo: add the newTodoContent in the state to the todoList in the state
   };
 
+  switchItemCheckedStatus = idx => {
+    // Todo: flip the 'finished' status of the todoItem at idx in the todoList
+  };
+
   removeItemFromList = (event, idx) => {
     // Todo: remove the todoItem at idx from the todoList in the state
     // Hint: think about the event bubbling mechanisms we talked about earlier
-  };
-
-  switchItemCheckedStatus = idx => {
-    // Todo: flip the 'finished' status of the todoItem at idx in the todoList
   };
 
   render() {
@@ -63,15 +63,7 @@ class App extends Component {
 
         <ul>
           {this.state.todoList.map((todoItem, idx) => {
-            return (
-              <TodoItem
-                key={idx}
-                idx={idx}
-                todoItem={todoItem}
-                remove={this.removeItemFromList}
-                switchCheckedStatus={this.switchItemCheckedStatus}
-              />
-            );
+            return <TodoItem key={idx} idx={idx} todoItem={todoItem} />;
           })}
         </ul>
       </div>
