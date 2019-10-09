@@ -39,11 +39,12 @@ ul li:hover {
   margin: 0px 10px;
 }
 
+.Filler {
+  flex: 1;
+}
+
 .DeleteIcon {
-  position: absolute;
-  right: 0;
-  top: 0;
-  padding: 12px 16px 12px 16px;
+  padding: 6px 8px;
 }
 
 .DeleteIcon:hover {

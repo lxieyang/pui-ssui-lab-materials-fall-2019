@@ -89,6 +89,7 @@ class App extends Component {
               <li key={idx} onClick={() => this.switchCheckedStatus(idx)}>
                 {todoItem.content}
                 {todoItem.finished ? <div className="DoneIcon">Done!</div> : null}
+                <div className="Filler"></div>
                 <div className="DeleteIcon" onClick={e => this.removeItemFromList(e, idx)}>
                   x
                 </div>
