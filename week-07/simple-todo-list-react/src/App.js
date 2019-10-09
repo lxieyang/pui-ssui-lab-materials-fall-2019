@@ -79,7 +79,7 @@ class App extends Component {
             placeholder="new to do..."
           />
           <span onClick={() => this.addItemToList()} className="AddNewToDoButton">
-            Add to my list
+            Add
           </span>
         </div>
 
